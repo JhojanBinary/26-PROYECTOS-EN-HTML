@@ -1,0 +1,45 @@
+
+
+<!--CREA UN FORMULARIO CON CAMPOS DE TIPO TEXTO CON ESTAS CARACTERISTICAS
+
+-DEBE DE SER OBLIGATORIO
+-MINIMO SE PUEDEN INTRODUCIR 3 CARACTERES Y MAXIMO 10
+-SOLO PODRAS METER ESPACIOS Y LETRAS DE A-Z EN MINISCULAS Y MAYUSCULAS-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form>
+
+            <div>
+                <label for="name">NOMBRE</label>
+                <input type="text" name="name" id="name" required minlength="3" maxlength="10" pattern = "[A-Za-z ]+">
+                
+            </div>
+
+            <div>
+                <label for="apellido">APELLIDO</label>
+                <input type="text" name="apellido" id="apellido" required required minlength="3" maxlength="10" pattern = "[A-Za-z ]+" >
+            </div>
+
+            <div>
+                <label for="dni">DNI</label>
+                <input type="text" name="dni" id="dni" required required minlength="3" maxlength="10">
+            </div>
+
+            <div>
+                <label for="edad">EDAD</label>
+                <input type="text" name="edad" id="edad" required required minlength="3" maxlength="10"> 
+            </div>
+
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>

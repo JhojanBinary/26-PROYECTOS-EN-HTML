@@ -1,0 +1,65 @@
+<!--CREA UN FORMULARIO CON UN CAMPO DE TIPO BUSQUEDA,
+TELEFONO, HORA, URL, BARRA DE PROGRESO, LISTA DE DATOS, SUBMIT Y RESET
+
+TODOS LOS CAMBIOS DEBERAN DE TENER UN LABEL-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+
+
+        <form>
+            <div>
+                <label for="search">BUSCAR</label>
+                <input type="search" name="search" id="search">
+            </div>
+
+
+            <div>
+                <label for="telf">TELEFONO</label>
+                <input type="tel" name="telf" id="telf">
+            </div>
+
+
+            <div>
+                <label for="hora">HORA</label>
+                <input type="time" name="hora" id="hora">
+            </div>
+
+            <div>
+                <label for="url">URL</label>
+                <input type="url" name="url" id="url">
+            </div>
+
+            <div>
+                <label for="barraprogresp">BARRA DE PROGRESO</label>
+                <progress max="100" value="78"></progress>
+            </div>
+
+            <div>
+                <label for="autos">LISTA DE AUTOS</label>
+                <input list = "autos" name="auto">
+
+                <datalist id="autos">
+                    <option value="TOYOTA">toyota corolla</option>
+                    <option value="HYUNDAI"></option>
+                    <option value="MAZDA"></option>
+                </datalist>
+            </div>
+
+            <input type="submit" value="enviar" name="" id="">
+            <input type="reset"  valuelimpiar="" id="">
+        </form>
+    </main>
+</body>
+
+</html>

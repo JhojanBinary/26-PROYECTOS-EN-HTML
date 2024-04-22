@@ -1,0 +1,132 @@
+<!--CREA UN FORMULARIO CON UN CAMPO DE TIPO TEXTAREA, EMAIL, CONTRASEÑA, RADIO, SELECT, CHECKBOX, 
+FICHERO, FECHA, COLOR, SUBMIT
+
+TODOS LOS CAMPOS DEBERAN ESTAR DENTRO DE UN FIELDSET
+Y USAR EL CAMPO LEGEND
+
+TODOS LOS CAMBIOS DEBERAN TENER LABEL-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <form action="submit">
+
+            <fieldset>
+                <legend>TEXT AREA</legend>
+                <textarea name="area" id="area" cols="30" rows="10" placeholder="ESCRIBE ALGO"></textarea><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>INGRESA TUS DATOS</legend>
+
+
+                <label for="email">ESCRIR EMAIL</label>
+                <input type="email" name="email" id="email" placeholder="TU EMAIL"><br>
+
+
+                <label for="password"> INGRESAR CONTRASEÑA</label>
+                <input type="password" name="password" id="password" placeholder="TU CONTRASEÑA"><br>
+
+
+
+                <label for="radio"> mayor de edad?</label>
+                <input type="radio" name="radio" id="radio">
+
+                <label for="checkbox">menor de dedad?</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+
+                <label for="radio"> mayor de edad?</label>
+                <input type="radio" name="radio" id="radio">
+
+                <label for="checkbox">menor de dedad?</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+
+                <label for="radio"> mayor de edad?</label>
+                <input type="radio" name="radio" id="radio">
+
+                <label for="checkbox">menor de dedad?</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>VERDURASSS</legend>
+                <label for="verduras"></label>
+
+                <select>
+
+                <option value="patatas">patatas</option>
+                <option value="lechugas">lechugas</option>
+                <option value="cebolla">cebolla</option>
+
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>CHECKBOX</legend>
+
+                <label for="tomtate">tomate?</label>
+                <input type="checkbox" name="tomtate" id="tomtate">
+
+
+                <label for="lechuga">lechuga??</label>
+                <input type="checkbox" name="lechuga" id="lechuga">
+
+                <label for="cebolla">cebolla?</label>
+                <input type="checkbox" name="cebolla" id="cebolla">
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>ARCHIVO</legend>
+
+                <label for="archivo">Sube tu archivo</label>
+                <input type="file" name="archivo" id="archivo">
+            </fieldset>
+
+
+            <fieldset>
+                <legend>FECHA</legend>
+
+                <label for="fecha": Fecha: >    fecha de ...</label>
+                <input type="date" name="fecha" id="fecha">
+            </fieldset>
+
+
+
+
+            <fieldset>
+                <legend>NUMERO</legend>
+
+                <label for="numero">Numero: </label>
+                <input type="number" name="numero" id="numero">
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>COLOR</legend>
+
+                <label for="color">Color: </label>
+                <input type="color" name="color" id="color">
+
+            </fieldset>
+
+
+            <input type="submit">
+        </form>
+    </main>
+</body>
+
+</html>
